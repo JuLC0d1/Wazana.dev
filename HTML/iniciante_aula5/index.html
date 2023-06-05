@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela simples</title>
+</head>
+<body>
+    <h1>digamos que Forma 1: simples</h1>
+    <table border cellPadding="10" width="100%"> <!--estilos para melhorar a tabela-->
+<!--border é obsoleto, pode fazer o trabalho do border usando outros meios, mas na aula o prof colocou assim-->
+        <thead>
+            <tr>
+                <th>Coluna 1</th>
+
+                <th>Coluna 2</th>
+                
+                <th>Coluna 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>valor 1</td>
+                <td>valor 2</td>
+                <td>valor 3</td>
+            </tr>
+            <tr>
+                <td>valor 4</td>
+                <td>valor 5</td>
+                <td>valor 6</td>
+            </tr>
+            <tr>
+                <td>valor 7</td>
+                <td>valor 8</td>
+                <td>valor 9</td>
+            </tr>
+        </tbody>
+    </table>
+<!--............................................................................................................................-->
+    <br> <br> <br>  <h1>Forma 2: um pouco complicada</h1>
+<table border cellPadding="10" width="100%"> 
+            <thead>
+                <tr>
+                    <th>Coluna 1</th>
+    
+                    <th>Coluna 2</th>
+                    
+                    <th>Coluna 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>valor 1</td>
+                    <td>valor 2</td>
+                    <td>valor 3</td>
+                </tr>
+                <tr>
+                    <td>valor 4</td>
+                    <td>valor 5</td>
+                    <td>valor 6</td>
+                </tr>
+                <tr>
+                    <td>valor 7</td>
+                    <td>valor 8</td>
+                    <td>
+                        <table border cellPadding="10" width="100%"> 
+                            <thead>
+                                <tr>
+                                    <th>Coluna 1</th>
+                    
+                                    <th>Coluna 2</th>
+                                    
+                                    <th>Coluna 3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>valor 1</td>
+                                    <td>valor 2</td>
+                                    <td>valor 3</td>
+                                </tr>
+                                <tr>
+                                    <td>valor 4</td>
+                                    <td>valor 5</td>
+                                    <td>valor 6</td>
+                                </tr>
+                                <tr>
+                                    <td>valor 7</td>
+                                    <td>valor 8</td>
+                                    <td>valor 9</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+<!--Retirei o valor 9 e coloquei toda a tabela no lugar, fazendo assim uma tabela dentro de outra tabela-->
+
+<!--............................................................................................................................-->
+<br> <br> <br>  <h1>Forma 3: um pouco complicada</h1>
+<table border cellPadding="10" width="100%"> 
+            <thead>
+                <tr>
+                    <th>Coluna 1</th>
+    
+                    <th>Coluna 2</th>
+                    
+                    <th>Coluna 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>valor 1</td>
+                    <td>valor 2</td>
+                    <td>valor 3</td>
+                </tr>
+                <tr>
+                    <td>valor 4</td>
+                    <td>valor 5</td>
+                    <td>valor 6</td>
+                </tr>
+                <tr>
+                    <td>valor 7</td>
+                    <td>valor 8</td>
+                    <td>
+                        <table border cellPadding="10" width="100%"> 
+                            <thead>
+                                <tr>
+                                    <th>Coluna 1</th>
+                    
+                                    <th>Coluna 2</th>
+                                    
+                                    <th>Coluna 3</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>valor 1</td>
+                                    <td>valor 2</td>
+                                    <td>valor 3</td>
+                                </tr>
+                                <tr>
+                                    <td>valor 4</td>
+                                    <td>
+                                        <table border cellPadding="10" width="100%"> 
+                                            <thead>
+                                                <tr>
+                                                    <th>Coluna 1</th>
+                                    
+                                                    <th>Coluna 2</th>
+                                                    
+                                                    <th>Coluna 3</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>valor 1</td>
+                                                    <td>valor 2</td>
+                                                    <td>valor 3</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>valor 4</td>
+                                                    <td>valor 5</td>
+                                                    <td>valor 6</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>valor 7</td>
+                                                    <td>valor 8</td>
+                                                    <td>valor 9</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                    <td>valor 6</td>
+                                </tr>
+                                <tr>
+                                    <td>valor 7</td>
+                                    <td>valor 8</td>
+                                    <td>valor 9</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+</body>
+</html>
