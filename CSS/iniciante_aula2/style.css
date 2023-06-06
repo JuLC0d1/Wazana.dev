@@ -1,0 +1,38 @@
+* {
+    color: gray;
+    text-align: center;
+} 
+/*o asterisco (*) é nada mais nada menos que uma regra universal, mas quando vc muda a regra para algum item especifico (como abaixo) esta nova regra pegara o lugar do universal.*/
+
+h1 {
+    color: red;
+}
+
+p {
+    color: orange;
+}
+
+/*
+h1, p {
+    color: brue;
+}
+desta forma, tanto os h1 quanto os p teram as mesmas regras
+*/
+
+#First-p {
+    color: yellow;
+}
+/*o # simboliza, e facilita a compreenção de que este 'p' é um "ID" e n outra coisa, fazendo assim mais facil de configurar um especifico no meio de tantos*/
+
+.text-texte {
+    color: cadetblue;
+}
+/*este '.' diz que este item é uma classe, para diferenciar uma CLASS de um ID*/
+
+/*
+
+p {
+    color: brown !important;
+}
+isto faz com que esta cor seja mais importante do que a que foi passada para tds os outros 'p' neste caso, isso quer dizer, a cor denominada importante seja colocada no lugar mesmo que algum paragrafo esteja com outra cor
+*/
