@@ -1,0 +1,17 @@
+/*body {overflow: none;}*/ /*e é assim que tira o scroll da pagina*/
+
+div {
+    background-color: black;
+
+    /*se vc colocar mais coisas (especificações como o '-color') vc mostra q qr apenas mudar a cor de fundo, mas quando vc coloca apenas background vc pode fazer mais modificações, não só relacionado a cor ou coisa assim, mas muito mais*/
+    
+    color: white;
+
+    height: 100px;
+
+    width: 200px;
+
+    overflow: scroll; /*scroll caso necessario, 'auto' deixa só um scroll vertical, 'scroll' deixa um scroll vertical e outro horizontal, e o 'hidden' simplesmente trava sem scroll nenhum e sem passar mesmo que o texto seja grande , e pd usar 'overflow-y' ou 'overflow-x' para mecher com um scroll especifico vertical ou horizontal*/
+    
+}
+
